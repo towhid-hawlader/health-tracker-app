@@ -16,8 +16,13 @@ html,p,h1,h2,h3,h4,h5,h6,div,span,body{
     position: relative;
     top: 3px;
 }
-@media screen and (max-width:350px){
+@media screen and (max-width:326px){
     .navbar-logo{
         width: 100%;
+    }
+}
+@media screen and (max-width:400px){
+    .logo-text{
+        font-size: 7vw;
     }
 }
