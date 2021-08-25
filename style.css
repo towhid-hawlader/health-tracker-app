@@ -1,0 +1,23 @@
+/* html fix design */
+html,p,h1,h2,h3,h4,h5,h6,div,span,body{
+    font-family: 'Work Sans',sans-serif;
+}
+/* menu custom design */
+.main-logo{
+    width: 2.8rem;
+}
+.navbar-logo{
+    width: 30%;
+}
+.logo-text{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+    position: relative;
+    top: 3px;
+}
+@media screen and (max-width:350px){
+    .navbar-logo{
+        width: 100%;
+    }
+}
